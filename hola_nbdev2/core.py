@@ -17,6 +17,9 @@ class HelloSayer:
         return say_hello(self.to)
 
 # Cell
+import re
+
+# Cell
 # Inicio con fecha y hora
 def startsWithDateAndTime(s):
     pattern = '^([0-9])+/([0-9])+/([0-9])+ ([0-9])+:([0-9])+ -'
